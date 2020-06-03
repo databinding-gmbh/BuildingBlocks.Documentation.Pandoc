@@ -549,6 +549,9 @@ $else$
 \usepackage[margin=2.5cm,includehead=true,includefoot=true,centering]{geometry}
 $endif$
 $endif$
+\makeatletter
+\global\let\tikz@ensure@dollar@catcode=\relax
+\makeatother
 
 %
 % break urls
